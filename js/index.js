@@ -576,7 +576,7 @@ function init() {
     {},
     {
       iconLayout: "default#image",
-      iconImageHref: "/img/my-map.svg",
+      iconImageHref: "../img/my-map.svg",
       iconImageSize: [20, 20],
       iconImageOffset: [-20, -40],
     }
