@@ -537,7 +537,7 @@ const validation = new JustValidate('.form', {
           }
         }
 
-        xhr.open('POST', 'mail.php', true);
+        xhr.open('POST', '../mail.php', true);
         xhr.send(formData);
 
         event.target.reset();
