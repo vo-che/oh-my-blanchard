@@ -537,7 +537,7 @@ const validation = new JustValidate('.form', {
           }
         }
 
-        xhr.open('POST', '../mail.php', true);
+        xhr.open('POST', 'mail.php', true);
         xhr.send(formData);
 
         event.target.reset();
@@ -576,7 +576,7 @@ function init() {
     {},
     {
       iconLayout: "default#image",
-      iconImageHref: "../img/my-map.svg",
+      iconImageHref: "my-map.svg",
       iconImageSize: [20, 20],
       iconImageOffset: [-20, -40],
     }
