@@ -31,13 +31,13 @@ try {
 
   //Настроки почты
   $mail->Host = 'smtp.gmail.com'; // smtp сервера вашей почты
-  $mail->Username = 'o.sintseva@vigbo.com'; // логин на почте
-  $mail->Password = 'xfwsfrojtfmtptmi'; // пароль
+  $mail->Username = ''; // логин на почте
+  $mail->Password = ''; // пароль
   $mail->SMTPSecure = 'ssl';
   $mail->Port = '465';
 
-  $mail->setForm('o.sintseva@vigbo.com', 'Заявка с сайта'); // Адрес и имя отправителя
-  $mail->addAddress('o.sintseva@vigbo.com');
+  $mail->setForm('', 'Заявка с сайта'); // Адрес и имя отправителя
+  $mail->addAddress('');
 
 
   //Отправка сообщения
